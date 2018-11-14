@@ -87,6 +87,14 @@ Homebrew使ってインストールしよう!
 
         $ nodebrew install-binary {version}
 
+<br>
+
+- **v9.11.0推奨**
+- 最新版だと、npmで必要なパッケージのインストールの際、インストールはできるものの、多数のエラーをはく(babel-cli,babel-preset-reactのインストール時)
+- 念のため、v9.11.0で使うことをオススメする
+
+<br>
+
 - コマンドでインストールされたバージョンの確認は、下記のコマンドを入力
 
         $ nodebrew ls
